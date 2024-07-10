@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Color Palette */
+
+:root {
+    --codecircus-primary: #EC6C5B;
+    --codecircus-secondary: #4CC083;
+    --codecircus-light: #E2F3F0;
+    --codecircus-bg-sky: #dff2f1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.btn_primary {
+    background-color: var(--codecircus-secondary);
+    color: white;
+}
+
+h4 {
+    color: var(--codecircus-primary);
+}

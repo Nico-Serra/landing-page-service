@@ -1,29 +1,65 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<style>
- 
-</style>
+<app-header></app-header>
 
 <main class="main">
 
-  <h1>{{title}}</h1>
+  <app-jumbotron></app-jumbotron>
+
+  <div class="container py-5">
+
+    <div class="row row-cols-1 row-cols-lg-2">
+      <div class="col" style="background-color: var(--codecircus-secondary); height: 500px;"></div>
+      <div class="col" style="background-color: var(--codecircus-secondary); height: 500px;"></div>
+    </div>
+
+    <app-category></app-category>
+
+    <app-courses></app-courses>
+
+  </div>
+
+  <app-reviews></app-reviews>
+
+  <div class="container">
+    <div class="teachers text-center py-5">
+      <h4>Stalkera gli insegnanti</h4>
+      <h2>I nostri insegnanti</h2>
+
+      <div class="row row-cols-lg-5 g-3">
+        <div class="col">a</div>
+        <div class="col">a</div>
+        <div class="col">a</div>
+        <div class="col">a</div>
+        <div class="col">a</div>
+      </div>
+    </div>
+
+    <div class="values text-center py-5">
+      <h4>Valori aggiunti</h4>
+      <h2>I nostri corsi piacciono perche</h2>
+
+      <div class="row row-cols-lg-2">
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex">
+    <div class="left">
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+  </div>
+
+  <div class="center">
+  
+  </div>
 
 </main>
 
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<app-footer></app-footer>
+
 
 
 <router-outlet />
