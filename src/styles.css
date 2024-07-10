@@ -7,6 +7,7 @@
     --codecircus-secondary: #4CC083;
     --codecircus-light: #E2F3F0;
     --codecircus-bg-sky: #dff2f1;
+    --codecircus-newsletter: #fcecd2;
 }
 
 * {
@@ -26,4 +27,8 @@ body {
 
 h4 {
     color: var(--codecircus-primary);
+}
+
+.newsletter{
+    background-color: var(--codecircus-newsletter);
 }
