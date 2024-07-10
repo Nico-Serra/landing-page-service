@@ -18,6 +18,7 @@
 
 body {
     font-family: "Inter", sans-serif;
+    font-weight: 300;
 }
 
 .btn_primary {
@@ -29,6 +30,6 @@ h4 {
     color: var(--codecircus-primary);
 }
 
-.newsletter{
+.newsletter {
     background-color: var(--codecircus-newsletter);
 }
