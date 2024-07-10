@@ -1,0 +1,47 @@
+.jumbotron {
+    position: relative;
+    background-image: url(/images/billboard-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        font-size: 80px;
+        font-weight: 300;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.boxes {
+    margin-top: -60px;
+
+    .row {
+
+        .card {
+            h4 {
+                font-weight: 700;
+                font-size: 30px;
+            }
+
+            h5 {
+                font-weight: 700;
+                font-size: 16px;
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 540px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .boxes {
+        margin-top: 0;
+    }
+}
